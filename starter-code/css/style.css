@@ -2,6 +2,10 @@ input {
   border: solid 1px black;
 }
 
+h1 {
+  text-align: center;
+}
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -24,12 +28,17 @@ input {
   border-radius: 4px;
 }
 
-.btn-success {
+#calc-prices-button {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+    margin: 0 45%;
 }
 
+
+#grand {
+  margin: 0 44%;
+}
 .btn-delete {
     color: #fff;
     background-color: #CF000F;
@@ -38,4 +47,51 @@ input {
 
 .quantity {
   margin: 0 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+  height: auto;
 }
+
+.align-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5vh;
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: auto;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: auto;
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: auto;
+}
+
+ #add{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .inputs {
+   display: flex;
+   flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
+ }
